@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>login</title>
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap-4.6.2/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/login-register.css' %}">
+    <link rel="icon" href="{% static 'favicon/icon.png' %}" sizes="16x16">
+    <style>
+        .text-center{
+            width:100%;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .picture-size{
+            width:200px;
+            height:200px;
+            margin-bottom:10px;
+        }
+    </style>
+</head>
+<body>
+<div class="page login-page">
+    <div class="container d-flex align-items-center">
+        <div class="form-holder has-shadow">
+            <div class="row">
+                <!-- Logo & Information Panel-->
+                <div class="col-lg-6">
+                    <div class="info d-flex align-items-center">
+                        <div class="content text-center">
+                            <div class="logo">
+                                <img src="{% static 'img/user.jpg' %}" class="rounded mx-auto d-block picture-size"
+                                     alt="...">
+                                <h1>登陆失败</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Form Panel    -->
+                <div class="col-lg-6 bg-white">
+                    <div class="form d-flex align-items-center">
+                        <div class="text-center">
+                            <div class="alert alert-danger" role="alert">
+                                <h3 class="alert-heading">请检查账号或密码是否正确</h3>
+                            </div>
+                            <hr>
+                            <a class="btn btn-success btn-sm" href="../login.html" role="button">返 回</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- JavaScript files-->
+<script src="{% static 'plugins/jquery-3.7.1/jquery.js' %}"></script>
+<script src="{% static 'plugins/bootstrap-4.6.2/js/bootstrap.bundle.js' %}"></script>
+</body>
+</html>

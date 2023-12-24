@@ -1,0 +1,251 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>AI</title>
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap-4.6.2/css/bootstrap.css' %}">
+    <link rel="icon" href="{% static 'favicon/icon.png' %}" sizes="16x16">
+    <style>
+        .text-center {
+            text-align:center;
+        }
+        .btn-center {
+            display:block;
+            margin: 0, auto;
+        }
+    </style>
+</head>
+<body>
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="9"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{% static 'img/background1.jpg' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <hr class="my-4">
+                <a class="btn btn-primary btn-sm" href="./register.html" role="button">注册</a>
+                <a class="btn btn-success btn-sm" href="./login.html" role="button">登录</a>
+                <a class="btn btn-danger btn-sm" href="./shutdown.html" role="button">退出</a>
+                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#staticBackdrop">
+                    了解更多
+                </button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'img/background2.jpg' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <hr class="my-4">
+                <a class="btn btn-primary btn-sm" href="./register.html" role="button">注册</a>
+                <a class="btn btn-success btn-sm" href="./login.html" role="button">登录</a>
+                <a class="btn btn-danger btn-sm" href="./shutdown.html"  role="button">退出</a>
+                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#staticBackdrop">
+                    了解更多
+                </button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'img/background3.jpg' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <hr class="my-4">
+                <a class="btn btn-primary btn-sm" href="./register.html" role="button">注册</a>
+                <a class="btn btn-success btn-sm" href="./login.html" role="button">登录</a>
+                <a class="btn btn-danger btn-sm" href="./shutdown.html" role="button">退出</a>
+                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#staticBackdrop">
+                    了解更多
+                </button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'img/background4.jpg' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <hr class="my-4">
+                <a class="btn btn-primary btn-sm" href="./register.html" role="button">注册</a>
+                <a class="btn btn-success btn-sm" href="./login.html" role="button">登录</a>
+                <a class="btn btn-danger btn-sm" href="./shutdown.html" role="button">退出</a>
+                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#staticBackdrop">
+                    了解更多
+                </button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'img/background5.jpg' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <hr class="my-4">
+                <a class="btn btn-primary btn-sm" href="./register.html" role="button">注册</a>
+                <a class="btn btn-success btn-sm" href="./login.html" role="button">登录</a>
+                <a class="btn btn-danger btn-sm" href="./shutdown.html" role="button">退出</a>
+                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#staticBackdrop">
+                    了解更多
+                </button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'img/background6.jpg' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <hr class="my-4">
+                <a class="btn btn-primary btn-sm" href="./register.html" role="button">注册</a>
+                <a class="btn btn-success btn-sm" href="./login.html" role="button">登录</a>
+                <a class="btn btn-danger btn-sm" href="./shutdown.html" role="button">退出</a>
+                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#staticBackdrop">
+                    了解更多
+                </button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'img/background7.jpg' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <hr class="my-4">
+                <a class="btn btn-primary btn-sm" href="./register.html" role="button">注册</a>
+                <a class="btn btn-success btn-sm" href="./login.html" role="button">登录</a>
+                <a class="btn btn-danger btn-sm" href="./shutdown.html" role="button">退出</a>
+                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#staticBackdrop">
+                    了解更多
+                </button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'img/background8.jpg' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <hr class="my-4">
+                <a class="btn btn-primary btn-sm" href="./register.html" role="button">注册</a>
+                <a class="btn btn-success btn-sm" href="./login.html" role="button">登录</a>
+                <a class="btn btn-danger btn-sm" href="./shutdown.html" role="button">退出</a>
+                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#staticBackdrop">
+                    了解更多
+                </button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'img/background9.jpg' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <hr class="my-4">
+                <a class="btn btn-primary btn-sm" href="./register.html" role="button">注册</a>
+                <a class="btn btn-success btn-sm" href="./login.html" role="button">登录</a>
+                <a class="btn btn-danger btn-sm" href="./shutdown.html" role="button">退出</a>
+                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#staticBackdrop">
+                    了解更多
+                </button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'img/background10.jpg' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <hr class="my-4">
+                <a class="btn btn-primary btn-sm" href="./register.html" role="button">注册</a>
+                <a class="btn btn-success btn-sm" href="./login.html" role="button">登录</a>
+                <a class="btn btn-danger btn-sm" href="./shutdown.html" role="button">退出</a>
+                <a class="btn btn-info btn-sm" role="button" data-toggle="modal" data-target="#staticBackdrop">了解更多</a>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </button>
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="card" style="width: 300px; height:500px;">
+            <img src="{% static 'img/deeplearning.png' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">DeepLearning</h5>
+                <p class="card-text text-center">Build your AI career with DeepLearning.AI</p>
+                <a href="https://www.deeplearning.ai/" class="btn btn-success btn-center" target="_blank">进入</a>
+            </div>
+        </div>
+        <div class="card" style="width: 300px; height:500px;">
+            <img src="{% static 'img/fastai.png' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">FastAi</h5>
+                <p class="card-text text-center">Making neural nets uncool again</p>
+                <a href="https://www.fast.ai/" class="btn btn-success btn-center" target="_blank">进入</a>
+            </div>
+        </div>
+        <div class="card" style="width: 300px; height:500px;">
+            <img src="{% static 'img/machinelearningmastery.png' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">Machine Learning Mastery</h5>
+                <p class="card-text text-center">Discover how to get better results, faster</p>
+                <a href="https://machinelearningmastery.com/" class="btn btn-success btn-center" target="_blank">进入</a>
+            </div>
+        </div>
+        <div class="card" style="width: 300px; height:500px;">
+            <img src="{% static 'img/showmeai.png' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">ShowMeAi</h5>
+                <p class="card-text text-center">人工智能领域的资料库和学习社区</p>
+                <a href="https://www.showmeai.tech/" class="btn btn-success btn-center" target="_blank">进入</a>
+            </div>
+        </div>
+        <div class="card" style="width: 300px; height:500px;">
+            <img src="{% static 'img/IEEE.png' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">IEEE</h5>
+                <p class="card-text text-center">Advancing Technology for Humanity</p>
+                <a href="https://ieeexplore.ieee.org/Xplore/home.jsp" class="btn btn-success btn-center" target="_blank">进入</a>
+            </div>
+        </div>
+        <div class="card" style="width: 300px; height:500px;">
+            <img src="{% static 'img/openai.png' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">OpenAi</h5>
+                <p class="card-text text-center">Creating safe AGI that benefits all of humanity</p>
+                <a href="https://openai.com/" class="btn btn-success btn-center" target="_blank">进入</a>
+            </div>
+        </div>
+        <div class="card" style="width: 300px; height:500px;">
+            <img src="{% static 'img/github.png' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">Github</h5>
+                <p class="card-text text-center">世界上最大的代码托管平台</p>
+                <a href="https://github.com/" class="btn btn-success btn-center" target="_blank">进入</a>
+            </div>
+        </div>
+        <div class="card" style="width: 300px; height:500px;">
+            <img src="{% static 'img/huggingface.png' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">HuggingFace</h5>
+                <p class="card-text text-center">The AI community building the future</p>
+                <a href="https://huggingface.co/" class="btn btn-success btn-center" target="_blank">进入</a>
+            </div>
+        </div>
+        <div class="card" style="width: 300px; height:500px;">
+            <img src="{% static 'img/claude2.png' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">Claude2</h5>
+                <p class="card-text text-center">Claude is a next-generation AI assistant for your tasks</p>
+                <a href="https://www.anthropic.com/index/claude-2" class="btn btn-success btn-center" target="_blank">进入</a>
+            </div>
+        </div>
+        <div class="card" style="width: 300px; height:500px;">
+            <img src="{% static 'img/usegalileo.png' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">Galileo AI</h5>
+                <p class="card-text text-center">Idea to design in an instant, powered by AI</p>
+                <a href="https://www.usegalileo.ai/" class="btn btn-success btn-center" target="_blank">进入</a>
+                <hr class="my-4">
+                <a href="../index" class="btn btn-danger btn-center">返回</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="{% static 'plugins/jquery-3.7.1/jquery.js' %}"></script>
+<script src="{% static 'plugins/bootstrap-4.6.2/js/bootstrap.bundle.js' %}"></script>
+</body>
+</html>
+
+
